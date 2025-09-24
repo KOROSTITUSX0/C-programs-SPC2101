@@ -2,8 +2,8 @@
 NAME : KOROS TITUS KIPRONO
 REG NO : PA106/G/28710/25
 DESCRIPTION :A program to compute surface area and volume of a cylinder
- 
-
+volume = PI * pow(radius,2) * 2
+surface_area = 2 * PI * pow(radius, 2) + 2 * PI * radius * height
 */
 
 #include<stdio.h>//scanf(),printf()
@@ -33,4 +33,5 @@ int main(){
 		
 	return 0;//Execution succesful		
 }
+
  
