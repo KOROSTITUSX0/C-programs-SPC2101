@@ -15,7 +15,7 @@ int main() {
     scanf("%f", &balance);
     
     printf("\nATM Withdrawal System\n");
-    printf("Initial balance: $%.2f\n\n", balance);
+    printf("Initial balance: Ksh.%.2f\n\n", balance);
     
     // While loop for withdrawals
     while (balance > 0) {
@@ -40,4 +40,5 @@ int main() {
     printf("Thank you for using ATM.Welcome again\n");
     
     return 0;
+
 }
